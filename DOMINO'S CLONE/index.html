@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dominoz Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Dominoz</div>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hot, Fresh & Tasty Pizzas</h1>
+    <p>Get your favorite pizza delivered fast and hot!</p>
+    <a href="#menu" class="btn">Order Now</a>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <h2>Our Pizzas</h2>
+    <div id="menu-items" class="menu-items">
+      <!-- JS inserts pizzas here -->
+    </div>
+  </section>
+
+  <section id="cart" class="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div id="total">Total: ₹0</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dominoz Clone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
